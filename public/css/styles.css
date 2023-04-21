@@ -1,0 +1,1936 @@
+body {
+    margin: 0;
+    font-family: Mulish,ui-sans-serif;
+}
+
+.owly--navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+}
+
+.owly--navbar--container {
+    display: flex;
+    width: 65%;
+}
+
+.owly--logo--nav {
+    width: 100px;
+    cursor: pointer;
+}
+
+.owly--navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.owly--navbar li {
+    list-style: none;
+    padding: 0px 15px;
+    cursor: pointer;
+    color: rgb(107, 107, 107);
+}
+
+.owly--navbar a {
+    text-decoration: none;
+}
+
+.owly--navbar li:hover {
+color: black;
+transition: 0.6s;
+}
+
+
+.owly--navbar--icons--container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 60%;
+}
+
+.navbar--icon {
+  color: rgb(0, 192, 226);
+  width: 27px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar--icon:hover {
+    transition: 0.5s;
+    color: rgb(4, 217, 255);
+}
+
+.owly--main--div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110vh;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.owly--container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   height: 70%;
+}
+
+.owly--logo {
+width: 450px;
+}
+
+.owly--container--text {
+    width: 50%;
+    height: 100%;
+}
+
+.owly--name--title {
+    font-size: 100px;
+    margin-bottom: 0;
+    color: rgb(0, 201, 236);
+}
+
+.owly--name--description {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.owly--main--button--container {
+    margin-top: 30px;
+}
+
+.owly--main--button {
+    padding: 13px 26px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(41, 233, 175);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.owly--main--button:hover {
+    background-color: rgb(24, 144, 108);
+}
+
+.owly--footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.owly--footer--container {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.owly--footer--description {
+    width: 30%;
+    color: rgb(107, 107, 107);
+}
+
+.owly--footer--description p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.owly--footer--contact ul {
+   list-style: none;
+   padding-left: 0;
+   font-size: 17px;
+}
+
+.owly--footer--contact li {
+    margin-bottom: 12px;
+    color: rgb(107, 107, 107);
+}
+
+.owly--icon {
+   font-size: 15rem;
+}
+
+.owly--footer--icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.instagram--icon {
+    transform: scale(0.6, 0.6);
+    cursor: pointer;
+   color: rgb(0, 192, 226);
+}
+
+.instagram--icon:hover {
+    color: rgb(4, 217, 255);
+    transition: 0.5s;
+}
+
+
+
+/* ------------------ STILI CORSI ------------------------- */
+
+.courses--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.courses--title {
+    font-size: 70px;
+    color: rgb(61, 61, 61);
+}
+
+.courses--list {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.paginate--controller {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(41, 233, 175);
+}
+
+.paginate--container {
+    padding: 10px;
+}
+
+.courses--single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 22px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    flex-basis: 25%; /* Imposta la larghezza degli elementi a 33% */
+    height: 500px;
+    border: 3px solid rgb(6, 135, 182);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.courses--single h2 {
+    font-size: 27px;;
+}
+
+.courses--single a {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+}
+
+.courses--single a:hover {
+    color: black;
+    transition: 0.6s;
+}
+
+.courses--logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.line--courses {
+    height: 3px;
+    background-color: rgb(107, 107, 107);
+    width: 250px;
+    margin-top: 10px;
+}
+
+.subject--covered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 3px;
+}
+
+.subject--covered p {
+    font-size: 15px;
+}
+
+.matter--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 180px;
+}
+
+.matter--list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.matter--list li {
+    line-height: 26px;
+}
+
+.open--spots {
+    margin-bottom: 10px;
+}
+
+.courses--button {
+    padding: 10px 28px;
+    width: 210px;
+    background-color: rgb(41, 233, 175);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight:bold;
+    color: white;
+}
+
+.courses--button:hover {
+    background-color: rgb(24, 144, 108);
+    transition: 0.6s;
+}
+
+/* ------------------ STILI BARRA DI RICERCA ------------------------- */
+
+.search--bar--courses {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 70px;
+    background-color: rgb(8, 160, 215);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.search--bar--icon--button {
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    cursor: pointer;
+}
+
+.search--bar--icon {
+    width: 25px;
+    margin-left: 5px;
+    color: white;
+}
+
+.search--bar--input {
+    width: 85%;
+    border: none;
+    border-radius: 0px, 0px, 10px, 10px;
+    background-color: transparent;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: rgb(233, 233, 233);
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+.search--bar--button {
+    border-radius: 20px;  
+    border: none;
+    width: 170px;
+    cursor: pointer;
+    background-color: rgb(53, 201, 255);
+    color: white;
+    font-weight: bold;
+}
+
+/* ------------------ STILI FILTRI DI RICERCA ------------------------- */
+
+.filters--search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+.filters--search a {
+    text-decoration: none;
+    height: 100%;
+}
+
+.add--course--button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 0px 30px;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(28, 164, 124);
+    color: white;
+    font-size: 18px;
+}
+
+.add--course--button:hover {
+    background-color: rgb(54, 183, 144);
+    transition: 0.6s;
+}
+
+
+.line {
+    height: 2px;
+    background-color: rgb(184, 184, 184);
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+/* ------------------ STILI DETTAGLI CORSI ------------------------- */
+
+.details--courses--container {
+    display: flex;
+    justify-content: center;
+    height: 88vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.details--courses--subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 60%;
+    height: 65%;
+    background-color: rgb(8, 160, 215);    
+    color: white;
+    margin: auto;
+    line-height: 30px;
+}
+
+
+.details--courses--button--container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+
+.details--courses--button--one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background-color:  rgb(1, 200, 255);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.details--courses--button--one:hover {
+    background-color:  rgb(0, 141, 180);
+    transition: 0.6s;
+}
+
+.details--courses--button--two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:  rgb(198, 198, 198);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.details--courses--button--two:hover {
+    background-color:  rgb(154, 154, 154);
+    transition: 0.6s;
+}
+
+.details--courses--button--three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:  rgb(250, 81, 43);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.details--courses--button--three:hover {
+    background-color:  rgb(216, 67, 34);
+    transition: 0.6s;
+}
+
+.arrow--left--icon {
+    width: 40px;
+}
+
+.modify--icon {
+    width: 25px;
+}
+
+.trash--icon {
+    width: 23px;
+}
+
+.details--courses--subcontainer h1 {
+    font-size: 55px
+}
+
+.details--courses--subcontainer h2 {
+    font-size: 30px;
+}
+.details--courses--subcontainer h3 {
+    font-size: 25px;
+}
+
+/* ------------------ STILI CREA CORSO ------------------------- */
+
+
+.create--course--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    margin: auto;
+    line-height: 20px;
+    background-color: rgba(250,250,250);
+}
+
+.create--course--form h1 {
+    font-size: 55px;
+}
+
+.form--create--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(85, 85, 85);;
+    height: 85%;
+    width: 35%;
+    border-radius: 20px;
+    color: white;
+}
+
+.form--create--container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.form--create--group--input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form--create--group--input ::placeholder {
+    color: rgb(130, 128, 128);
+}
+
+.form--create--group--input input {
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 35px;
+    padding-left: 10px;
+    color: black;
+}
+
+.message--error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.create--course--button {
+    width:100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(41, 233, 175);
+    color: white;
+}
+
+.create--course--button:hover {
+    background-color: rgb(27, 160, 120);
+    transition: 0.4s;
+}
+
+.message--successfully {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message--successfully p {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ------------------ STILI LISTA MATERIE ------------------------- */
+
+.subjects--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.subject--button {
+    display: flex;
+}
+
+.subjects--title {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(61, 61, 61);
+}
+
+.subjects--list {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 70%;
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.subject--elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.subject--elements li {
+    margin-right: 30px;
+}
+
+.modify--button {
+    background-color: rgb(224, 224, 224);
+    border: none; 
+    padding: 5px 10px;
+    margin-right: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.modify--button:hover {
+    background-color: rgb(172, 172, 172); 
+}
+
+.delete--button {
+    background-color: rgb(251, 39, 39);
+    padding: 5px 10px;  
+    border: none;  
+    height: 30px;
+    cursor: pointer;
+}
+
+.delete--button:hover {
+    background-color: rgb(204, 32, 32);  
+}
+
+.modify--icon--subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13px;
+}
+
+.trash--icon--subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13px;
+    color: white;
+}
+
+/* ------------------ STILI BOTTONE AGGIUNGI CORSO ------------------------- */
+
+.add--subject--button--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.add--subject {
+    height: 100%;
+    text-decoration: none;
+}
+.line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5px;
+    background-color: rgb(184, 184, 184);
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* ------------------ STILI AGGIUNGI CORSO ------------------------- */
+
+.form--create--subject--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(85, 85, 85);
+    height: 85%;
+    width: 35%;
+    border-radius: 20px;
+    color: white;
+}
+.form--create--subject--box p {
+    font-size: 20px
+}
+
+.form--create--subject--container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 30%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.form--create--subject--group--input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form--create--subject--group--input input {
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 35px;
+    padding-left: 10px;
+    color: black;
+    background-color: ghostwhite;
+}
+
+.form--create--subject--group--input ::placeholder {
+    color: rgb(130, 128, 128);
+}
+
+.create--subject--button {
+    width:100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(41, 233, 175);
+    color: white;
+}
+
+
+.create--subject--button:hover {
+    background-color: rgb(27, 160, 120);
+    transition: 0.4s;
+}
+
+/* ------------------ STILI NAVIGA PAGINA ------------------------- */
+
+.paginate--controller--subjects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(41, 233, 175);
+    margin-bottom: -40px;
+}
+
+.paginate--container--subjects {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 1215px) and (max-width: 1612px) {
+
+    .owly--main--div {
+        height: 100vh;
+    }
+
+    .owly--logo {
+        width: 350px;
+    }
+
+    .owly--container--text {
+        height: 85%;
+    }
+
+    .owly--name--title {
+        font-size: 80px;
+    }
+
+    .owly--name--description {
+        font-size: 17px;
+    }
+
+    .details--courses--subcontainer {
+        width: 70%;
+    }
+
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
+    }
+
+    .details--courses--button--container {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .form--create--box {
+        width: 50%;
+    }
+
+    .form--create--subject--box {
+        width: 50%;
+    }
+    
+    .owly--footer--container {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1214px) {
+
+    .owly--main--div {
+        height: 90vh;
+    }
+
+    .owly--logo {
+       width: 175px;
+    }
+
+    .owly--container {
+        justify-content: center;
+        flex-direction: column;
+        width: 85%;
+        height: 80%;
+    }
+
+    .owly--container--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        height: 90%;
+        margin: auto;
+    }
+
+    .owly--name--title {
+        font-size: 80px;
+    }
+
+    .owly--name--description {
+        font-size: 17px;
+    }
+
+    .owly--main--button--container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        height: 95px;
+    }
+
+    .owly--main--button {
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+
+    .courses--container {
+        height: 225vh;
+    }
+    
+    .form--create--box {
+        width: 70%;
+    }
+
+    .form--create--box p {
+        font-size: 20px;
+    }
+
+    .form--create--container {
+        width: 360px;
+    }
+
+    .details--courses--subcontainer {
+        width: 80%;
+    }
+
+    .details--courses--button--container {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .form--create--subject--box {
+        width: 70%;
+    }
+
+    .form--create--subject--box h1 {
+        font-size: 55px;
+    }
+
+    .form--create--subject--container {
+        width: 380px;
+    }
+    
+    .owly--footer--description h1 {
+        font-size: 25px;
+    } 
+    
+    .owly--footer--description p {
+        font-size: 14px;
+    }
+
+    .owly--footer--contact h1 {
+        font-size: 25px;
+    }
+
+    .owly--footer--contact ul {
+        font-size: 14px;
+     }
+
+     .owly--footer--follow h1 {
+        font-size: 25px;
+     }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .owly--navbar--icons--container {
+        display: none;
+    }
+    
+
+    .owly--main--div {
+        height: 90vh;
+    }
+
+    .owly--logo {
+       width: 165px;
+    }
+
+    .owly--container {
+        justify-content: center;
+        flex-direction: column;
+        width: 85%;
+        height: 85%;
+    }
+
+    .owly--container--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 90%;
+    }
+
+    .owly--name--title {
+        font-size: 80px;
+    }
+
+    .owly--name--description {
+        font-size: 17px;
+    }
+
+    .owly--main--button--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        height: 95px;
+    }
+
+    .owly--main--button {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    .courses--container {
+        height: 250vh;
+    }
+    .courses--title {
+        font-size: 65px;
+    }
+
+    .courses--single {
+        margin-bottom: 50px;
+        border: 3px solid rgb(6, 135, 182);
+        background-color: white;
+    }
+    .courses--logo {
+        width: 100px;
+    }
+
+    .line--courses {
+        width: 230px;
+    }
+
+    .search--bar--courses {
+        height: 60px;
+    }
+
+    .search--bar--icon--button {
+        width: 20px;
+    }
+
+    .search--bar--icon {
+        width: 20px;
+    }
+
+    .search--bar--input {
+        width: 75%;
+        border-radius: 0px, 0px, 10px, 10px;
+        font-size: 13px;
+    }
+
+    .form--create--box {
+        height: 75%;
+        width: 80%;
+    }
+
+    .form--create--box h1 {
+        font-size: 48px;
+    }
+
+    .form--create--box p {
+        font-size: 20px;
+    }
+
+    .form--create--container {
+        width: 360px;
+    }
+
+    .details--courses--container {
+        height: 110vh;
+    }
+
+    .details--courses--subcontainer {
+        width: 80%;
+    }
+    
+    .details--courses--button--container {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .form--create--subject--box {
+        height: 75%;
+        width: 80%;
+    }
+
+    .form--create--subject--box h1 {
+        font-size: 55px;
+    }
+
+    .form--create--subject--container {
+        width: 380px;
+    }
+
+    .owly--footer {
+        flex-direction: column;
+        height: 650px;
+    }
+    
+    .owly--footer--container {
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .owly--footer--container {
+        width: 100%;
+    }
+
+    .owly--footer--description {
+        width: 70%;
+    }
+
+    .owly--footer--description h1 {
+        text-align: center;
+        font-size: 30px;
+    } 
+    
+    .owly--footer--description p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .owly--footer--contact {
+        width: 70%;
+    }
+
+    .owly--footer--contact h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .owly--footer--contact ul {
+        text-align: center;
+        font-size: 16px;
+     }
+
+     .owly--footer--follow h1 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .owly--footer--icons {
+        justify-content: center;
+        margin-top: -10px;
+     }
+
+     .instagram--icon {
+        transform: scale(0.7, 0.7);
+     }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .owly--navbar--icons--container {
+        display: none;
+    }
+
+    .owly--main--div {
+        height: 90vh;
+    }
+
+    .owly--logo {
+       width: 160px;
+    }
+
+    .owly--container {
+        justify-content: center;
+        flex-direction: column;
+        width: 85%;
+        height: 80%;
+    }
+
+    .owly--container--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 85%;
+    }
+
+    .owly--name--title {
+        font-size: 70px;
+    }
+
+    .owly--name--description {
+        font-size: 16px;
+    }
+
+    .owly--main--button--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        height: 95px;
+    }
+
+    .owly--main--button {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    .courses--container {
+        height: 380vh;
+    }
+    .courses--title {
+        font-size: 60px;
+    }
+
+    .courses--list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 88%;
+        margin: auto;
+        flex-wrap: nowrap;
+    }
+
+    .courses--single {
+        margin-bottom: 50px;
+        border: 3px solid rgb(6, 135, 182);
+        border-radius: 10px;
+        background-color: white;
+    }
+    .courses--logo {
+        width: 100px;
+    }
+
+    .line--courses {
+        width: 230px;
+    }
+
+    .search--bar--courses {
+        justify-content: space-around;
+        width: 85%;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .search--bar--icon--button {
+        width: 20px;
+    }
+
+    .search--bar--icon {
+        width: 20px;
+    }
+
+    .search--bar--input {
+        width: 75%;
+        border-radius: 0px, 0px, 10px, 10px;
+        font-size: 13px;
+    }
+
+    .search--bar--button {
+    border-radius: 10px;
+    }
+
+    .form--create--box {
+        height: 75%;
+        width: 75%;
+    }
+
+    .form--create--box h1 {
+        font-size: 43px;
+    }
+
+    .form--create--box p {
+        font-size: 18px;
+    }
+
+    .form--create--container {
+        width: 350px;
+    }
+
+    .details--courses--container {
+        height: 90vh;
+    }
+
+    .details--courses--subcontainer {
+        width: 90%;
+        height: 75%;
+    }
+
+    .details--courses--subcontainer h1 {
+        font-size: 37px
+    }
+    
+    .details--courses--subcontainer h2 {
+        font-size: 21px;
+    }
+    .details--courses--subcontainer h3 {
+        font-size: 19px;
+    }
+    
+    .details--courses--button--container {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .subjects--container {
+        height: 90vh;
+    }
+
+    .subjects--title {
+        font-size: 50px;
+    }
+
+    .subjects--list {
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .subject--elements {
+        width: 100%;
+    }
+
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
+    }
+
+    .form--create--subject--box {
+        height: 75%;
+        width: 85%;
+    }
+
+    .form--create--subject--box h1 {
+        font-size: 50px;
+    }
+
+    .form--create--subject--container {
+        width: 360px;
+    }
+
+    .owly--footer {
+        flex-direction: column;
+        height: 650px;
+    }
+    
+    .owly--footer--container {
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .owly--footer--container {
+        width: 100%;
+    }
+
+    .owly--footer--description {
+        width: 70%;
+    }
+
+    .owly--footer--description h1 {
+        text-align: center;
+        font-size: 30px;
+    } 
+    
+    .owly--footer--description p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .owly--footer--contact {
+        width: 70%;
+    }
+
+    .owly--footer--contact h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .owly--footer--contact ul {
+        text-align: center;
+        font-size: 16px;
+     }
+
+     .owly--footer--follow h1 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .owly--footer--icons {
+        justify-content: center;
+        margin-top: -10px;
+     }
+
+     .instagram--icon {
+        transform: scale(0.7, 0.7);
+     }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
+
+    .owly--navbar--icons--container {
+        display: none;
+    }
+
+    .owly--main--div {
+        height: 90vh;
+    }
+
+    .owly--logo {
+       width: 140px;
+    }
+
+    .owly--container {
+        flex-direction: column;
+        width: 85%;
+        height: 90%;
+    }
+
+    .owly--container--text {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .owly--name--title {
+        font-size: 60px;
+    }
+
+    .owly--name--description {
+        font-size: 15px;
+    }
+
+    .owly--main--button--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        height: 90px;
+    }
+
+    .owly--main--button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .courses--container {
+        height: 380vh;
+    }
+    .courses--title {
+        font-size: 60px;
+    }
+
+    .courses--list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 88%;
+        margin: auto;
+        flex-wrap: nowrap;
+    }
+
+    .courses--single {
+        margin-bottom: 50px;
+        border: 3px solid rgb(6, 135, 182);
+        border-radius: 10px;
+        background-color: white;
+    }
+    .courses--logo {
+        width: 100px;
+    }
+
+    .line--courses {
+        width: 230px;
+    }
+
+    .search--bar--courses {
+        justify-content: space-around;
+        width: 85%;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .search--bar--icon--button {
+        width: 20px;
+    }
+
+    .search--bar--icon {
+        width: 20px;
+    }
+
+    .search--bar--input {
+        width: 75%;
+        border-radius: 0px, 0px, 10px, 10px;
+        font-size: 12px;
+        margin-left: -7px;
+    }
+
+
+    .search--bar--button {
+        display: none;
+    }
+
+    .filters--search {
+        height: 40px;
+    }
+
+    .form--create--box {
+        height: 75%;
+        width: 90%;
+    }
+
+    .form--create--box h1 {
+        font-size: 43px;
+    }
+
+    .form--create--box p {
+        font-size: 18px;
+    }
+
+    .form--create--container {
+        width: 320px;
+    }
+
+    .details--courses--container {
+        height: 90vh;
+    }
+
+    .details--courses--subcontainer {
+        width: 85%;
+        height: 60%;
+    }
+
+    .details--courses--subcontainer h1 {
+        font-size: 36px
+    }
+    
+    .details--courses--subcontainer h2 {
+        font-size: 24px;
+    }
+    .details--courses--subcontainer h3 {
+        font-size: 20px;
+    }
+    
+    .details--courses--button--container {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .subjects--container {
+        height: 90vh;
+    }
+
+    .subjects--title {
+        font-size: 50px;
+    }
+
+    .subjects--list {
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .subject--elements {
+        width: 95%;
+    }
+
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
+    }
+
+    .form--create--subject--box {
+        height: 75%;
+        width: 90%;
+    }
+
+    .form--create--subject--box h1 {
+        font-size: 40px;
+    }
+
+    .form--create--subject--container {
+        width: 320px;
+    }
+
+    .owly--footer {
+        flex-direction: column;
+        height: 650px;
+    }
+    
+    .owly--footer--container {
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .owly--footer--container {
+        width: 100%;
+    }
+
+    .owly--footer--description {
+        width: 70%;
+    }
+
+    .owly--footer--description h1 {
+        text-align: center;
+        font-size: 30px;
+    } 
+    
+    .owly--footer--description p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .owly--footer--contact {
+        width: 70%;
+    }
+
+    .owly--footer--contact h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .owly--footer--contact ul {
+        text-align: center;
+        font-size: 16px;
+     }
+
+     .owly--footer--follow h1 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .owly--footer--icons {
+        justify-content: center;
+        margin-top: -10px;
+     }
+
+     .instagram--icon {
+        transform: scale(0.7, 0.7);
+     }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 449px) {
+
+    .owly--navbar--icons--container {
+        display: none;
+    }
+
+    .owly--main--div {
+        height: 90vh;
+    }
+
+    .owly--logo {
+       width: 130px;
+    }
+
+    .owly--container {
+        flex-direction: column;
+        width: 85%;
+        height: 85%;
+    }
+
+    .owly--container--text {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .owly--name--title {
+        font-size: 55px;
+    }
+
+    .owly--name--description {
+        font-size: 14px;
+    }
+
+    .owly--main--button--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        height: 85px;
+    }
+
+    .owly--main--button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .courses--container {
+        height: 380vh;
+    }
+    .courses--title {
+        font-size: 45px;
+    }
+
+    .courses--list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 88%;
+        width: 90%;
+        margin: auto;
+        flex-wrap: nowrap;
+    }
+
+    .courses--single {
+        margin-bottom: 50px;
+        border: 3px solid rgb(6, 135, 182);
+        border-radius: 10px;
+        background-color: white;
+    }
+    .courses--logo {
+        width: 100px;
+    }
+
+    .line--courses {
+        width: 230px;
+    }
+
+    .search--bar--courses {
+        justify-content: space-around;
+        width: 85%;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .search--bar--icon--button {
+        width: 20px;
+    }
+
+    .search--bar--icon {
+        width: 20px;
+    }
+
+    .search--bar--input {
+        width: 75%;
+        border-radius: 0px, 0px, 10px, 10px;
+        font-size: 12px;
+        margin-left: -7px;
+    }
+
+
+    .search--bar--button {
+        display: none;
+    }
+
+    .filters--search {
+        height: 40px;
+    }
+
+    .form--create--box {
+        height: 75%;
+        width: 90%;
+    }
+
+    .form--create--box h1 {
+        font-size: 43px;
+    }
+
+    .form--create--box p {
+        font-size: 18px;
+    }
+
+    .form--create--container {
+        width: 88%;
+    }
+
+    .subjects--container {
+        height: 90vh;
+    }
+
+    .subjects--title {
+        font-size: 40px;
+    }
+
+    .subjects--list {
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .subject--elements {
+        width: 95%;
+    }
+
+    .form--create--subject--box {
+        height: 75%;
+        width: 90%;
+    }
+
+    .form--create--subject--box h1 {
+        font-size: 40px;
+    }
+
+    .form--create--subject--container {
+        width: 88%;
+    }
+
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
+    }
+
+    .paginate--controller {
+        margin-top: 80px;
+    }
+    
+        
+    .add--course--button {
+        height: 40px;
+        padding: 0px 25px;
+        width: 200px;
+        font-size: 17px;
+    }
+
+    .details--courses--container {
+        height: 85vh;
+    }
+
+    .details--courses--subcontainer {
+        width: 90%;
+        height: 60%;
+    }
+
+    .details--courses--subcontainer h1 {
+        font-size: 27px
+    }
+    
+    .details--courses--subcontainer h2 {
+        font-size: 19px;
+    }
+    .details--courses--subcontainer h3 {
+        font-size: 16px;
+    }
+    
+    .details--courses--button--container {
+        flex-direction: column;
+        height: 180px;
+    }
+
+    .details--courses--button--one {
+        width: 120px;
+        height: 30px;
+    }
+
+    .details--courses--button--two {
+        width: 120px;
+        height: 30px;
+    }
+
+    .details--courses--button--three {
+        width: 120px;
+        height: 30px;
+    }
+
+    .arrow--left--icon {
+        width: 33px;
+    }
+    
+    .modify--icon {
+        width: 18px;
+    }
+    
+    .trash--icon {
+        width: 16px;
+    }
+
+    .owly--footer {
+        flex-direction: column;
+        height: 720px;
+    }
+    
+    .owly--footer--container {
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .owly--footer--container {
+        width: 100%;
+    }
+
+    .owly--footer--description {
+        width: 70%;
+    }
+
+    .owly--footer--description h1 {
+        text-align: center;
+        font-size: 30px;
+    } 
+    
+    .owly--footer--description p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .owly--footer--contact {
+        width: 70%;
+    }
+
+    .owly--footer--contact h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .owly--footer--contact ul {
+        text-align: center;
+        font-size: 16px;
+     }
+
+     .owly--footer--follow h1 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .owly--footer--icons {
+        justify-content: center;
+        margin-top: -10px;
+     }
+
+     .instagram--icon {
+        transform: scale(0.7, 0.7);
+     }
+}
