@@ -22,11 +22,11 @@
 @endforeach
 </ol>
 </div>
-<nav class="paginate--controller--subjects">
+<div class="paginate--controller--subjects">
     <div class="paginate--container--subjects">
     {{$subjects->links()}}
 </div>
-</nav>
+</div>
 </div>
 
 

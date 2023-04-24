@@ -18,11 +18,11 @@
 
 @endunless
 </div>
-<nav class="paginate--controller">
+<div class="paginate--controller">
     <div class="paginate--container">
     {{$courses->links()}}
 </div>
-</nav>
+</div>
 </div>
 
 

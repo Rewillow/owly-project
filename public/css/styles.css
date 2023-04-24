@@ -13,7 +13,13 @@ body {
 
 .owly--navbar--container {
     display: flex;
+    align-items: center;
     width: 65%;
+    height: 80px;
+}
+
+nav .logo {
+    display: none;
 }
 
 .owly--logo--nav {
@@ -30,6 +36,7 @@ body {
 }
 
 .owly--navbar li {
+    display: block;
     list-style: none;
     padding: 0px 15px;
     cursor: pointer;
@@ -37,6 +44,7 @@ body {
 }
 
 .owly--navbar a {
+    display: block;
     text-decoration: none;
 }
 
@@ -51,6 +59,22 @@ transition: 0.6s;
     justify-content: right;
     align-items: center;
     width: 60%;
+}
+
+.hamburger {
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar--icon {
@@ -191,7 +215,7 @@ width: 450px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 170vh;
+    height: 215vh;
     background-color: rgb(250, 250, 250);
 }
 
@@ -434,7 +458,7 @@ input:focus {
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    width: 60%;
+    width: 55%;
     height: 65%;
     background-color: rgb(8, 160, 215);    
     color: white;
@@ -541,7 +565,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     margin: auto;
     line-height: 20px;
     background-color: rgba(250,250,250);
@@ -630,7 +654,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 95vh;
+    height: 110vh;
     background-color: rgb(250, 250, 250);
 }
 
@@ -812,10 +836,10 @@ input:focus {
     padding: 10px;
 }
 
-@media only screen and (min-width: 1215px) and (max-width: 1612px) {
+@media only screen and (min-width: 1201px) and (max-width: 1350px) {
 
     .owly--main--div {
-        height: 100vh;
+        height: 120vh;
     }
 
     .owly--logo {
@@ -835,7 +859,7 @@ input:focus {
     }
 
     .details--courses--subcontainer {
-        width: 70%;
+        width: 65%;
     }
 
     .paginate--controller--subjects {
@@ -851,6 +875,10 @@ input:focus {
         width: 50%;
     }
 
+    .subjects--container {
+        height: 115vh;
+    }
+
     .form--create--subject--box {
         width: 50%;
     }
@@ -861,10 +889,10 @@ input:focus {
 }
 
 
-@media only screen and (min-width: 992px) and (max-width: 1214px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     .owly--main--div {
-        height: 90vh;
+        height: 115vh;
     }
 
     .owly--logo {
@@ -910,11 +938,11 @@ input:focus {
     }
 
     .courses--container {
-        height: 225vh;
+        height: 290vh;
     }
     
     .form--create--box {
-        width: 70%;
+        width: 60%;
     }
 
     .form--create--box p {
@@ -926,7 +954,7 @@ input:focus {
     }
 
     .details--courses--subcontainer {
-        width: 80%;
+        width: 75%;
     }
 
     .details--courses--button--container {
@@ -935,7 +963,7 @@ input:focus {
     }
 
     .form--create--subject--box {
-        width: 70%;
+        width: 60%;
     }
 
     .form--create--subject--box h1 {
@@ -944,6 +972,10 @@ input:focus {
 
     .form--create--subject--container {
         width: 380px;
+    }
+
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
     }
     
     .owly--footer--description h1 {
@@ -966,6 +998,8 @@ input:focus {
         font-size: 25px;
      }
 
+     
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -974,9 +1008,8 @@ input:focus {
         display: none;
     }
     
-
     .owly--main--div {
-        height: 90vh;
+        height: 120vh;
     }
 
     .owly--logo {
@@ -1022,8 +1055,9 @@ input:focus {
     }
 
     .courses--container {
-        height: 250vh;
+        height: 290vh;
     }
+
     .courses--title {
         font-size: 65px;
     }
@@ -1081,7 +1115,19 @@ input:focus {
     }
 
     .details--courses--subcontainer {
-        width: 80%;
+        width: 85%;
+        height: 70%;
+    }
+
+    .details--courses--subcontainer h1 {
+        font-size: 50px
+    }
+    
+    .details--courses--subcontainer h2 {
+        font-size: 25px;
+    }
+    .details--courses--subcontainer h3 {
+        font-size: 20px;
     }
     
     .details--courses--button--container {
@@ -1089,9 +1135,13 @@ input:focus {
         height: 200px;
     }
 
+    .paginate--controller--subjects {
+        margin-bottom: 1px;
+    }
+
     .form--create--subject--box {
         height: 75%;
-        width: 80%;
+        width: 75%;
     }
 
     .form--create--subject--box h1 {
@@ -1168,7 +1218,7 @@ input:focus {
     }
 
     .owly--main--div {
-        height: 90vh;
+        height: 120vh;
     }
 
     .owly--logo {
@@ -1214,7 +1264,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 380vh;
+        height: 480vh;
     }
     .courses--title {
         font-size: 60px;
@@ -1232,10 +1282,10 @@ input:focus {
 
     .courses--single {
         margin-bottom: 50px;
-        border: 3px solid rgb(6, 135, 182);
         border-radius: 10px;
         background-color: white;
     }
+
     .courses--logo {
         width: 100px;
     }
@@ -1270,7 +1320,7 @@ input:focus {
     }
 
     .form--create--box {
-        height: 75%;
+        height: 80%;
         width: 75%;
     }
 
@@ -1312,7 +1362,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 90vh;
+        height: 110vh;
     }
 
     .subjects--title {
@@ -1406,12 +1456,59 @@ input:focus {
 
 @media only screen and (min-width: 450px) and (max-width: 599px) {
 
+    header {
+        width: 90%;
+    }
+
+    nav {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: 0.2s;
+    }
+
+    #nav_check:checked ~ nav {
+       left: 0;
+       transition: 0.5s;
+       width: 280px;
+    }
+    
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .owly--navbar--container li {
+        display: flex;
+        justify-content: left;
+        font-size: 21px;
+        padding: 20px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     .owly--navbar--icons--container {
         display: none;
     }
 
     .owly--main--div {
-        height: 90vh;
+        height: 100vh;
     }
 
     .owly--logo {
@@ -1420,7 +1517,7 @@ input:focus {
 
     .owly--container {
         flex-direction: column;
-        width: 85%;
+        width: 90%;
         height: 90%;
     }
 
@@ -1453,8 +1550,9 @@ input:focus {
     }
 
     .courses--container {
-        height: 380vh;
+        height: 490vh;
     }
+
     .courses--title {
         font-size: 60px;
     }
@@ -1515,7 +1613,7 @@ input:focus {
     }
 
     .form--create--box {
-        height: 75%;
+        height: 80%;
         width: 90%;
     }
 
@@ -1557,7 +1655,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 90vh;
+        height: 115vh;
     }
 
     .subjects--title {
@@ -1652,18 +1750,65 @@ input:focus {
 
 @media only screen and (min-width: 320px) and (max-width: 449px) {
 
+    header {
+        width: 90%;
+    }
+
+    nav {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: 0.2s;
+    }
+
+    #nav_check:checked ~ nav {
+       left: 0;
+       transition: 0.5s;
+       width: 280px;
+    }
+    
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .owly--navbar--container li {
+        display: flex;
+        justify-content: left;
+        font-size: 21px;
+        padding: 20px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     .owly--navbar--icons--container {
         display: none;
     }
 
     .owly--main--div {
-        height: 90vh;
+        height: 110vh;
     }
 
     .owly--logo {
        width: 130px;
     }
-
+    
     .owly--container {
         flex-direction: column;
         width: 85%;
@@ -1699,7 +1844,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 380vh;
+        height: 490vh;
     }
     .courses--title {
         font-size: 45px;
@@ -1779,7 +1924,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 90vh;
+        height: 120vh;
     }
 
     .subjects--title {
@@ -1830,18 +1975,18 @@ input:focus {
 
     .details--courses--subcontainer {
         width: 90%;
-        height: 60%;
+        height: 70%;
     }
 
     .details--courses--subcontainer h1 {
-        font-size: 27px
+        font-size: 25px
     }
     
     .details--courses--subcontainer h2 {
-        font-size: 19px;
+        font-size: 14px;
     }
     .details--courses--subcontainer h3 {
-        font-size: 16px;
+        font-size: 12px;
     }
     
     .details--courses--button--container {

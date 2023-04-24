@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{ secure_asset('css\styles.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css\styles.css') }}" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -13,21 +13,32 @@
     <title>Owly</title>
 </head>
 <body>
-    <nav class="owly--navbar">
+    <header class="owly--navbar">
     <div class="owly--navbar--container">
        <a href="/"><img src="{{asset('images/Owlylogo2.png')}}" alt="owly_logo2" class="owly--logo--nav"/></a>
-       <ul>
+      <input type="checkbox" id="nav_check" hidden>
+      <nav>
+        <div class="logo">
+            <a href="/"><img src="{{asset('images/Owlylogo2.png')}}" alt="owly_logo2" class="owly--logo--nav"/></a>
+        </div>
+       <ul class="menu">
        <a href="/"><li>Home</li></a>
         <a href="/subjects"><li>Subjects</li></a>
         <a href="/courses"><li>Courses</li></a>
        </ul>
+       </nav>
     <div class="owly--navbar--icons--container">
         <x-entypo-facebook class="navbar--icon" />
         <x-entypo-instagram-with-circle  class="navbar--icon"/>
         <x-entypo-linkedin-with-circle class="navbar--icon" />
     </div>
     </div>
-    </nav>
+    <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+    </header>
     
     <x-flash-message />
     @yield('content')
