@@ -23,8 +23,8 @@
         </div>
        <ul class="menu">
        <a href="/"><li>Home</li></a>
+       <a href="/courses"><li>Courses</li></a>
         <a href="/subjects"><li>Subjects</li></a>
-        <a href="/courses"><li>Courses</li></a>
        </ul>
        </nav>
     <div class="owly--navbar--icons--container">
