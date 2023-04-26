@@ -8,7 +8,7 @@ $subjectNameString = implode(', ', $course['subject']);
 
 <div class="details--courses--container">
 <div class="details--courses--subcontainer">
-<h1> Courses: {{$course['title']}}</h1>
+<h1> Course: {{$course['title']}}</h1>
 <h2> Subjects: {{$subjectNameString}}</h2>
 <h3> Spots: {{$course['spots']}}</h3>
 <div class="details--courses--button--container">
