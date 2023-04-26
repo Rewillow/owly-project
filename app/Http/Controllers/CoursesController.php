@@ -13,7 +13,7 @@ class CoursesController extends Controller
    public function coursesList() {
     return view('courses.courses', [
         'heading' => 'Our courses',
-        'courses' => Course::orderBy('created_at', 'asc')->filter(request(['search']))->simplePaginate(6)
+        'courses' => Course::orderBy('created_at', 'asc')->filter(request(['search']))->simplePaginate(2)
     ]);
    }
 
