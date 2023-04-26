@@ -4,6 +4,11 @@
 
 <h1 class="subjects--title">{{$heading}}</h1>
 @include('partials._addSubject')
+<div class="links--top--container">
+<div class="links--top">
+{{$subjects->links()}}
+</div>
+</div>
 <div class="subjects--container">
 <div class="subjects--list">
 <ul>

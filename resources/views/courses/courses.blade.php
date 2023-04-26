@@ -6,6 +6,11 @@
 <h1 class="courses--title">{{$heading}}</h1>
 @include('partials._search')
 @include('partials._addCourse')
+<div class="links--top--container--courses">
+<div class="links--top--courses">
+    {{$courses->links()}}
+</div>
+</div>
 <div class="courses--list">
 @unless(count($courses) == 0)
 
