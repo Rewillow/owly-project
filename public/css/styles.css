@@ -917,7 +917,6 @@ input:focus {
     }
 
     .owly--container {
-        border: 1px solid red;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -927,7 +926,6 @@ input:focus {
         }
 
     .owly--container--text {
-        border: 1px solid red;
         display: flex;
         flex-direction: column;
         justify-content: center;
