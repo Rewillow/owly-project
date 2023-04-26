@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 class SubjectsController extends Controller
 {
     public function subjectsList() {
-        $subjects = Subject::orderBy('name', 'asc')->simplePaginate(12); 
+        $subjects = Subject::orderBy('name', 'asc')->simplePaginate(15); 
         return view('subjects.subjects', [
             'heading' => 'Our Subjects',
             'subjects' => $subjects

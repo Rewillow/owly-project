@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Mulish,ui-sans-serif;
+    scroll-behavior: smooth;
 }
 
 .owly--navbar {
@@ -1538,7 +1539,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 490vh;
+        height: 510vh;
     }
 
     .courses--title {
@@ -1546,9 +1547,10 @@ input:focus {
     }
 
     .courses--list {
+        border: 1px solid red;
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: start;
         flex-direction: column;
         height: 88%;
         margin: auto;
@@ -1643,7 +1645,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 115vh;
+        height: 125vh;
     }
 
     .subjects--title {
@@ -1651,12 +1653,16 @@ input:focus {
     }
 
     .subjects--list {
-        width: 85%;
+        width: 90%;
+        height: 90%;
         font-size: 17px;
+        align-items: start;
     }
 
     .subject--elements {
         width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
     }
 
     .paginate--controller--subjects {
