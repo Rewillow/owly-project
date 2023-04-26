@@ -884,6 +884,19 @@ input:focus {
         height: 120vh;
     }
 
+    .subjects--list {
+        width: 90%;
+        height: 90%;
+        font-size: 17px;
+        align-items: start;
+    }
+
+    .subject--elements {
+        width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
+    }
+
     .form--create--subject--box {
         width: 50%;
     }
@@ -892,7 +905,6 @@ input:focus {
         width: 90%;
     }
 }
-
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -965,6 +977,23 @@ input:focus {
     .details--courses--button--container {
         width: 80%;
         justify-content: space-around;
+    }
+
+    .subjects--container {
+        height: 120vh;
+    }
+
+    .subjects--list {
+        width: 90%;
+        height: 90%;
+        font-size: 17px;
+        align-items: start;
+    }
+
+    .subject--elements {
+        width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
     }
 
     .form--create--subject--box {
@@ -1136,6 +1165,24 @@ input:focus {
     .details--courses--button--container {
         flex-direction: column;
         height: 200px;
+    }
+
+    .subjects--container {
+        height: 120vh;
+    }
+
+
+    .subjects--list {
+        width: 90%;
+        height: 90%;
+        font-size: 17px;
+        align-items: start;
+    }
+
+    .subject--elements {
+        width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
     }
 
     .paginate--controller--subjects {
@@ -1363,7 +1410,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 110vh;
+        height: 120vh;
     }
 
     .subjects--title {
@@ -1371,12 +1418,16 @@ input:focus {
     }
 
     .subjects--list {
-        width: 85%;
+        width: 90%;
+        height: 90%;
         font-size: 17px;
+        align-items: start;
     }
 
     .subject--elements {
-        width: 100%;
+        width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
     }
 
     .paginate--controller--subjects {
