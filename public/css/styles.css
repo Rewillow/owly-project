@@ -993,7 +993,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 330vh;
+        height: 310vh;
     }
     
     .form--create--box {
@@ -1071,7 +1071,7 @@ input:focus {
      }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 726px) and (max-width: 991px) {
 
     .owly--navbar--icons--container {
         display: none;
@@ -1122,7 +1122,7 @@ input:focus {
 
 
     .courses--container {
-        height: 330vh;
+        height: 320vh;
     }
 
     .courses--title {
@@ -1296,7 +1296,7 @@ input:focus {
      }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 725px) {
 
     .owly--navbar--icons--container {
         display: none;
@@ -1344,17 +1344,13 @@ input:focus {
         margin-left: 5px;
         padding: 10px 20px;
     }
-
-    .courses--container {
-        height: 510vh;
-    }
     
     .courses--title {
         font-size: 60px;
     }
 
     .courses--container {
-        height: 580vh;
+        height: 530vh;
     }
 
     .courses--title {
@@ -1627,7 +1623,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 580vh;
+        height: 530vh;
     }
 
     .courses--title {
@@ -1909,7 +1905,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 580vh;
+        height: 520vh;
     }
     .courses--title {
         font-size: 45px;
