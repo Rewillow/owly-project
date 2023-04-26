@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `courses` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dump dei dati della tabella owly.courses: ~6 rows (circa)
 INSERT INTO `courses` (`id`, `title`, `subject`, `spots`, `created_at`, `updated_at`) VALUES
@@ -115,14 +115,7 @@ INSERT INTO `subjects` (`id`, `name`, `created_at`, `updated_at`) VALUES
 	(17, 'Math', '2023-04-17 11:03:06', '2023-04-17 11:03:07'),
 	(18, 'Science', '2023-04-18 07:03:09', '2023-04-18 07:03:09'),
 	(19, 'Art', '2023-04-18 07:04:22', '2023-04-18 07:04:22'),
-	(20, 'Astrology', '2023-04-18 07:06:22', '2023-04-18 07:06:22'),
-	(21, 'Biology', '2023-04-18 07:06:50', '2023-04-18 07:06:50'),
-	(22, 'Physical education', '2023-04-18 07:07:23', '2023-04-18 07:07:23'),
-	(23, 'Literature', '2023-04-18 07:07:50', '2023-04-18 07:07:50'),
-	(24, 'English', '2023-04-18 07:09:24', '2023-04-18 07:09:24'),
-	(25, 'French', '2023-04-18 07:10:07', '2023-04-18 07:10:07'),
-	(26, 'Astronomy', '2023-04-18 07:10:46', '2023-04-18 07:10:46'),
-	(27, 'Spanish', '2023-04-18 07:18:02', '2023-04-18 07:18:02');
+	(20, 'Astrology', '2023-04-18 07:06:22', '2023-04-18 07:06:22');
 
 -- Dump della struttura di tabella owly.users
 CREATE TABLE IF NOT EXISTS `users` (
