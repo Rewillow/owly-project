@@ -1041,18 +1041,16 @@ input:focus {
     }
 
     .owly--main--button--container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         margin-top: 40px;
-        height: 95px;
     }
 
     .owly--main--button {
-        padding: 12px 25px;
-        font-size: 15px;
+        margin: auto;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px 20px;
     }
+
 
     .courses--container {
         height: 290vh;
@@ -1250,18 +1248,16 @@ input:focus {
     }
 
     .owly--main--button--container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         margin-top: 40px;
-        height: 95px;
     }
 
     .owly--main--button {
-        padding: 12px 25px;
-        font-size: 15px;
+        margin: auto;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px 20px;
     }
+
 
     .courses--container {
         height: 480vh;
@@ -1531,17 +1527,14 @@ input:focus {
     }
 
     .owly--main--button--container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        height: 90px;
-    }
+       margin-top: 40px;
+}
 
     .owly--main--button {
+        margin: auto;
+        margin-right: 5px;
+        margin-left: 5px;
         padding: 10px 20px;
-        font-size: 15px;
     }
 
     .courses--container {
