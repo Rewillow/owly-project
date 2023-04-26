@@ -859,6 +859,10 @@ input:focus {
         font-size: 17px;
     }
 
+    .courses--container {
+        height: 230vh;
+    }
+
     .details--courses--subcontainer {
         width: 65%;
     }
@@ -939,7 +943,7 @@ input:focus {
     }
 
     .courses--container {
-        height: 290vh;
+        height: 320vh;
     }
     
     .form--create--box {
@@ -1054,7 +1058,7 @@ input:focus {
 
 
     .courses--container {
-        height: 290vh;
+        height: 320vh;
     }
 
     .courses--title {
@@ -1261,7 +1265,7 @@ input:focus {
 
 
     .courses--container {
-        height: 480vh;
+        height: 510vh;
     }
     .courses--title {
         font-size: 60px;
@@ -1547,18 +1551,14 @@ input:focus {
     }
 
     .courses--list {
-        border: 1px solid red;
         display: flex;
-        justify-content: space-around;
-        align-items: start;
+        align-items: center;
         flex-direction: column;
-        height: 88%;
         margin: auto;
         flex-wrap: nowrap;
     }
 
     .courses--single {
-        margin-bottom: 50px;
         border: 3px solid rgb(6, 135, 182);
         border-radius: 10px;
         background-color: white;
@@ -1913,7 +1913,7 @@ input:focus {
     }
 
     .subjects--container {
-        height: 130vh;
+        height: 125vh;
     }
 
     .subjects--title {
@@ -1921,12 +1921,16 @@ input:focus {
     }
 
     .subjects--list {
-        width: 85%;
+        width: 90%;
+        height: 90%;
         font-size: 17px;
+        align-items: start;
     }
 
     .subject--elements {
         width: 95%;
+        align-items: start;
+        margin-bottom: 5px;
     }
 
     .form--create--subject--box {
