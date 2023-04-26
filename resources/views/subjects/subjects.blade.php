@@ -6,7 +6,7 @@
 @include('partials._addSubject')
 <div class="subjects--container">
 <div class="subjects--list">
-<ol type="1">
+<ul>
 @foreach ($subjects as $subject)
 <div class="subject--elements">
 <li><strong>{{$subject->name}}</strong></li>
@@ -20,7 +20,7 @@
 </div>
 </div>
 @endforeach
-</ol>
+</ul>
 </div>
 <div class="paginate--controller--subjects">
     <div class="paginate--container--subjects">

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{secure_asset('css\styles.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css\styles.css') }}" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -17,7 +17,7 @@
     <div class="owly--navbar--container">
        <a href="/"><img src="{{asset('images/Owlylogo2.png')}}" alt="owly_logo2" class="owly--logo--nav"/></a>
       <input type="checkbox" id="nav_check" hidden>
-      <nav>
+      <nav class="responsive--navbar">
         <div class="logo">
             <a href="/"><img src="{{asset('images/Owlylogo2.png')}}" alt="owly_logo2" class="owly--logo--nav"/></a>
         </div>
