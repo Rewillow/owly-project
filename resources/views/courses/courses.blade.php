@@ -23,10 +23,10 @@
 
 @endunless
 </div>
-<div class="paginate--controller">
+{{-- <div class="paginate--controller">
     <div class="paginate--container">
     {{$courses->links()}}
-</div>
+</div> --}}
 </div>
 </div>
 

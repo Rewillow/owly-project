@@ -234,7 +234,7 @@ width: 450px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 175vh;
+    height: 165vh;
     background-color: rgb(250, 250, 250);
 }
 
@@ -259,7 +259,6 @@ width: 450px;
 }
 
 .courses--list {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: start;
