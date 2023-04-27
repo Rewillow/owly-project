@@ -261,7 +261,7 @@ width: 450px;
 .courses--list {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     height: 45%;
     width: 90%;
     flex-wrap: wrap;
@@ -901,7 +901,15 @@ input:focus {
     }
 
     .courses--container {
-        height: 150vh;
+        height: 160vh;
+    }
+
+    .search--bar--courses {
+        height: 50px;
+    }
+
+    .add--course--button {
+        height: 40px;
     }
 
     .details--courses--subcontainer {
