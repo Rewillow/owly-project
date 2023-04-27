@@ -27,10 +27,6 @@
 @endforeach
 </ul>
 </div>
-<div class="paginate--controller--subjects">
-    <div class="paginate--container--subjects">
-    {{$subjects->links()}}
-</div>
 </div>
 </div>
 

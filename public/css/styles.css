@@ -2044,7 +2044,8 @@ input:focus {
     }
 
     .subjects--container {
-        height: 125vh;
+        align-items: start;
+        height: 60vh;
     }
 
     .subjects--title {
