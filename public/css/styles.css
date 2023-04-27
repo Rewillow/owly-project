@@ -901,7 +901,11 @@ input:focus {
     }
 
     .courses--container {
-        height: 160vh;
+        height: 170vh;
+    }
+
+    .courses--list {
+        height: 60%;
     }
 
     .search--bar--courses {
@@ -1007,10 +1011,11 @@ input:focus {
     }
 
     .courses--container {
-        height: 150vh;
+        height: 160vh;
     }
 
     .courses--list {
+        height: 70%;
         align-items: center;
     }
 
@@ -1156,6 +1161,7 @@ input:focus {
         background-color: white;
     }
     .courses--list {
+        height: 75%;
         align-items: center;
     }
 
@@ -1172,7 +1178,7 @@ input:focus {
     }
 
     .search--bar--courses {
-        height: 70px;
+        height: 90px;
     }
 
     .search--bar--icon--button {
@@ -1187,6 +1193,10 @@ input:focus {
         width: 75%;
         border-radius: 0px, 0px, 10px, 10px;
         font-size: 13px;
+    }
+
+    .add--course--button {
+        height: 45px;
     }
 
     .form--create--box {
@@ -1390,7 +1400,8 @@ input:focus {
     }
 
     .courses--list {
-        align-items: center;
+        height: 80%;
+        align-items: start;
     }
 
     .courses--single {
@@ -1666,7 +1677,7 @@ input:focus {
     }
 
     .courses--list {
-        height: 90%;
+        height: 85%;
         align-items: start;
     }
 
@@ -1677,8 +1688,7 @@ input:focus {
     .courses--single {
         border: 3px solid rgb(6, 135, 182);
         border-radius: 10px;
-        background-color: white;
-        
+        background-color: white;  
     }
 
     .courses--logo {
