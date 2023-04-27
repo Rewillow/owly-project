@@ -1966,6 +1966,12 @@ input:focus {
         border-radius: 10px;
         background-color: white;
     }
+
+    .courses--list {
+        align-items: start;
+        height: 90%;
+    }
+
     .courses--logo {
         width: 100px;
     }
