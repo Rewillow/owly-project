@@ -2052,6 +2052,7 @@ input:focus {
     }
 
     .subjects--list {
+        border: 1px solid red;
         width: 90%;
         height: 90%;
         font-size: 17px;
@@ -2059,7 +2060,7 @@ input:focus {
     }
 
     .subject--elements {
-        width: 95%;
+        width: 100%;
         align-items: start;
         margin-bottom: 5px;
     }
